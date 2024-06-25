@@ -3,6 +3,9 @@ name: sitemap_scraping
 
 # Controls when the action will run.
 on:
+  schedule:
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
   push:
     branches: main
 
