@@ -6,8 +6,8 @@ on:
   push:
     branches: 
       - main
-  schedule:
-    - cron: '*/3 * * * *' # Change to every 3 mins and push
+ # schedule:
+ #   - cron: '*/3 * * * *' # Change to every 3 mins and push
 
 
 jobs: 
